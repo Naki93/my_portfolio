@@ -19,6 +19,7 @@
   --teak: #7a6040;
   --teak-light: #b09468;
   --cream: #f7f2ea;
+  --white: #ffffff;
   --parchment: #efe6d4;
   --linen: #faf6ef;
   --bark: #3a2e22;
@@ -38,7 +39,7 @@ html {
 
 body {
   font-family: var(--font);
-  background: var(--cream);
+  background: var(--white);
   color: var(--body);
   font-size: 15px;
   line-height: 1.75;
@@ -91,7 +92,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1.1rem 3rem;
-  background: rgba(247, 242, 234, 0.9);
+  background: white;
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   animation: pageIn 0.8s var(--ease) 0.05s both;
@@ -322,13 +323,14 @@ section {
 }
 
 .section-label {
-  font-size: 0.66rem;
+  font-size: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.24em;
   text-transform: uppercase;
   color: var(--clay);
   margin-bottom: 0.55rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0.7rem;
 }
@@ -362,9 +364,9 @@ section {
 /* ── ABOUT ── */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 4.5rem;
-  align-items: start;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  align-items: center;
 }
 
 .about-text p {

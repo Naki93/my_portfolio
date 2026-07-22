@@ -656,6 +656,12 @@ section {
   color: var(--clay);
 }
 
+a {
+  color: var(--clay);
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
 /* ── LEARNING BANNER ── */
 .learning-banner {
   background: var(--bark);
